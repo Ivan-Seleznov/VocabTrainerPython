@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CardsDialog</class>
+ <widget class="QDialog" name="CardsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>All Cards</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableCards">
+     <property name="columnCount">
+      <number>5</number>
+     </property>
+     <property name="horizontalHeaderLabels">
+      <stringlist>
+       <string>Original</string>
+       <string>Translation</string>
+       <string>Repetitions</string>
+       <string>Next Review</string>
+       <string>Learned</string>
+      </stringlist>
+     </property>
+     <property name="selectionBehavior">
+      <set>QAbstractItemView::SelectRows</set>
+     </property>
+     <property name="selectionMode">
+      <set>QAbstractItemView::SingleSelection</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnClose">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

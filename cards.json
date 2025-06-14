@@ -1,0 +1,178 @@
+[
+  {
+    "original": "apple",
+    "translation": "яблуко",
+    "interval_days": 1,
+    "next_review": "2025-06-14T00:05:09.111591",
+    "repetitions": 0,
+    "is_learned": true
+  },
+  {
+    "original": "book",
+    "translation": "книга",
+    "interval_days": 2,
+    "next_review": "2025-06-16T09:00:00",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "car",
+    "translation": "автомобіль",
+    "interval_days": 2,
+    "next_review": "2025-06-16T09:00:00",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "dog",
+    "translation": "пес",
+    "interval_days": 2,
+    "next_review": "2025-06-16T09:00:00",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "elephant",
+    "translation": "слон",
+    "interval_days": 2,
+    "next_review": "2025-06-16T02:54:47.769670",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "flower",
+    "translation": "квітка",
+    "interval_days": 2,
+    "next_review": "2025-06-16T00:05:08.623389",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "garden",
+    "translation": "сад",
+    "interval_days": 2,
+    "next_review": "2025-06-16T02:54:46.888647",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "house",
+    "translation": "будинок",
+    "interval_days": 1,
+    "next_review": "2025-06-14T00:05:08.945685",
+    "repetitions": 0,
+    "is_learned": true
+  },
+  {
+    "original": "island",
+    "translation": "острів",
+    "interval_days": 1,
+    "next_review": "2025-06-14T02:55:01.339796",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "juice",
+    "translation": "сік",
+    "interval_days": 2,
+    "next_review": "2025-06-16T09:00:00",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "key",
+    "translation": "ключ",
+    "interval_days": 2,
+    "next_review": "2025-06-16T02:55:00.030287",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "lion",
+    "translation": "лев",
+    "interval_days": 1,
+    "next_review": "2025-06-14T02:55:04.332893",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "mountain",
+    "translation": "гора",
+    "interval_days": 1,
+    "next_review": "2025-06-14T09:00:00",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "night",
+    "translation": "ніч",
+    "interval_days": 1,
+    "next_review": "2025-06-14T09:00:00",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "ocean",
+    "translation": "океан",
+    "interval_days": 1,
+    "next_review": "2025-06-14T09:00:00",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "paper",
+    "translation": "папір",
+    "interval_days": 1,
+    "next_review": "2025-06-14T09:00:00",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "queen",
+    "translation": "королева",
+    "interval_days": 1,
+    "next_review": "2025-06-14T09:00:00",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "river",
+    "translation": "річка",
+    "interval_days": 1,
+    "next_review": "2025-06-14T09:00:00",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "sun",
+    "translation": "сонце",
+    "interval_days": 2,
+    "next_review": "2025-06-16T00:01:17.140225",
+    "repetitions": 1,
+    "is_learned": false
+  },
+  {
+    "original": "tree",
+    "translation": "дерево",
+    "interval_days": 1,
+    "next_review": "2025-06-14T09:00:00",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "test",
+    "translation": "test12",
+    "interval_days": 1,
+    "next_review": "2025-06-14T02:55:05.408522",
+    "repetitions": 0,
+    "is_learned": false
+  },
+  {
+    "original": "test",
+    "translation": "test3",
+    "interval_days": 2,
+    "next_review": "2025-06-16T02:54:54.406305",
+    "repetitions": 1,
+    "is_learned": false
+  }
+]

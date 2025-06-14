@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Vocabulary Trainer</string>
+  </property>
+  <property name="styleSheet">
+   <string>?QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+   }
+   QPushButton:hover {
+    background-color: #45a049;
+   }"?</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="labelTitle">
+      <property name="text">
+       <string>Vocabulary Trainer</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignHCenter|Qt::AlignTop</set>
+      </property>
+      <property name="margin">
+       <number>10</number>
+      </property>
+      <property name="styleSheet">
+       <string>font-size: 18pt; font-weight: bold;</string>
+      </property>
+     </widget>
+    </item>
+    <!-- Statistics -->
+    <item>
+     <layout class="QHBoxLayout" name="statsLayout">
+      <item>
+       <widget class="QLabel" name="labelTotalCards">
+        <property name="text">
+         <string>Total cards: 0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeft</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelLearnedCards">
+        <property name="text">
+         <string>Learned: 0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnViewCards">
+      <property name="text">
+       <string>View Cards</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnStartLearning">
+      <property name="text">
+       <string>Start Learning</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnImport">
+      <property name="text">
+       <string>Import Cards</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnAddCard">
+      <property name="text">
+       <string>Add Card</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnSettings">
+      <property name="text">
+       <string>Settings</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

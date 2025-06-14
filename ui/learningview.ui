@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LearningDialog</class>
+ <widget class="QDialog" name="LearningDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Learning Session</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+      <widget class="QLabel" name="labelOriginal">
+        <property name="text"><string>Original Word</string></property>
+        <property name="alignment"><set>Qt::AlignCenter</set></property>
+        <property name="styleSheet"><string>font-size:20pt;</string></property>
+      </widget>
+    </item>
+    <item>
+      <widget class="QLabel" name="labelTranslation">
+        <property name="text"><string>Translation</string></property>
+        <property name="alignment"><set>Qt::AlignCenter</set></property>
+        <property name="styleSheet"><string>font-size:18pt; color: gray;</string></property>
+        <property name="visible"><bool>false</bool></property>
+      </widget>
+    </item>
+    <item>
+      <layout class="QHBoxLayout" name="buttonLayout">
+        <item>
+          <widget class="QPushButton" name="btnToggle">
+            <property name="text"><string>Show/Hide</string></property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="btnRemember">
+            <property name="text"><string>Remember</string></property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="btnRepeat">
+            <property name="text"><string>Repeat</string></property>
+          </widget>
+        </item>
+      </layout>
+    </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
